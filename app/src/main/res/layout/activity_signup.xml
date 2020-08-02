@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="243dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/simran" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="First Name"
+        />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        />
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+
+        />
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        />
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="SIGN UP"
+        android:gravity="center"
+        android:background="#FF9933"/>
+
+
+</LinearLayout>
