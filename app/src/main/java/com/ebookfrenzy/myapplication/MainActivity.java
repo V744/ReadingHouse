@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
+
             }
         },SPLASH_TIME_OUT);
     }
