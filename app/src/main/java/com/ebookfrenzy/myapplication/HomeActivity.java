@@ -29,11 +29,11 @@ public class HomeActivity extends AppCompatActivity {
                         case R.id.nav_home:
                             selectedFragment = new HomeFragment();
                             break;
-                        case R.id.nav_dashboard:
-                            selectedFragment = new HomeFragment();
-                            break;
                         case R.id.nav_profile:
                             selectedFragment = new ProfileFragment();
+                            break;
+                        case R.id.nav_settings:
+                            selectedFragment = new SettingsFragment();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).commit();
