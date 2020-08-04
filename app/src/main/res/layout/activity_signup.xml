@@ -7,7 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".Signup"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="#E3F0F6"
+    >
 
 
     <ImageView
