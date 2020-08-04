@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ThrillerActivity"></activity>
+        <activity android:name=".Passwordlink"></activity>
+        <activity android:name=".ThrillerActivity" />
         <activity android:name=".HorrorActivity" />
         <activity android:name=".MysteryActivity" />
         <activity android:name=".RomanceActivity" />
