@@ -35,7 +35,7 @@
 
             <!-- Column 1 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_one"
+                android:id="@+id/card_fantasy"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -76,7 +76,7 @@
 
             <!-- Column 2 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_two"
+                android:id="@+id/card_adventure"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -120,7 +120,7 @@
 
             <!-- Column 1 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_three"
+                android:id="@+id/card_romance"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -161,7 +161,7 @@
 
             <!-- Column 2 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_four"
+                android:id="@+id/card_mystery"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -205,7 +205,7 @@
 
             <!-- Column 1 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_five"
+                android:id="@+id/card_horror"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -246,7 +246,7 @@
 
             <!-- Column 2 -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_six"
+                android:id="@+id/card_thriller"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
