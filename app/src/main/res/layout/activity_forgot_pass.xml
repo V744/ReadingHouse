@@ -188,7 +188,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/save"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:background="#AAD2F3"
