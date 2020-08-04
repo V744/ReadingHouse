@@ -19,7 +19,7 @@ public class Passwordlink extends AppCompatActivity {
         sendcode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Passwordlink.this, ForgotPass.class);
+                Intent i = new Intent(Passwordlink.this, PSWDCODE.class);
 
                 startActivity(i);
             }
