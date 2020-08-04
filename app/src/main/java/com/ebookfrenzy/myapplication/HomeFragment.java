@@ -1,7 +1,9 @@
 package com.ebookfrenzy.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -14,7 +16,7 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class HomeFragment extends Fragment {
-
+    private CardView fantasy,adventure,romance,mystery,horror,thriller;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -60,6 +62,72 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_home, container, false);
+        fantasy = v.findViewById(R.id.card_fantasy);
+        adventure=v.findViewById(R.id.card_adventure);
+        romance=v.findViewById(R.id.card_romance);
+        mystery=v.findViewById(R.id.card_mystery);
+        horror=v.findViewById(R.id.card_horror);
+        thriller=v.findViewById(R.id.card_thriller);
+        fantasy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), FantasyActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+        adventure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), AdventureActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+        romance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), RomanceActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+        mystery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), MysteryActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+        horror.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), HorrorActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+        thriller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext(), ThrillerActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
         return v;
     }
 }
