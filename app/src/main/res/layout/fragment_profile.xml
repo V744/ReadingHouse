@@ -22,9 +22,8 @@
         android:layout_width="166dp"
         android:layout_height="36dp"
         android:text="Change Profile Picture"
-        android:textSize="15dp"
         android:textColor="#6620E3"
-        />
+android:gravity="center"       android:textSize="15dp" />
 
     <LinearLayout
         android:layout_width="381dp"
