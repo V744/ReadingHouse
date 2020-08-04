@@ -32,24 +32,10 @@
 
                     <ImageView
                         android:id="@+id/imageView12"
-                        android:layout_width="86dp"
-                        android:layout_height="64dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/icon" />
-
-                    <TextView
-                        android:id="@+id/textView3"
-                        style="@android:style/Widget.Holo.TextView.SpinnerItem"
-                        android:layout_width="330dp"
-                        android:layout_height="64dp"
-                        android:layout_weight="1"
-                        android:background="#A8D8ED"
-                        android:gravity="center_horizontal"
-                        android:text="Reading House"
-                        android:textAlignment="center"
-                        android:textColor="#030F55"
-                        android:textColorLink="#E31A1A"
-                        android:textSize="36sp" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -67,10 +53,10 @@
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
-                        android:layout_height="86dp"
+                        android:layout_height="30dp"
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
-                        android:text="Forgot Password?"
+                        android:text="Reset Password?"
                         android:textAlignment="center"
                         android:textAllCaps="false"
                         android:textColor="#1F0947"
@@ -82,25 +68,16 @@
                     android:layout_height="98dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="95dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="Confirm Password "
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="#1F0947"
-                        android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/editText6"
                         android:layout_width="168dp"
                         android:layout_height="64dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:hint="Confirm password"
+                        android:hint="validation code"
                         android:inputType="textPersonName" />
                 </LinearLayout>
 
@@ -109,25 +86,17 @@
                     android:layout_height="92dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="78dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="Password "
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="#1F0947"
-                        android:textSize="20sp" />
+
 
                     <EditText
                         android:id="@+id/editText5"
                         android:layout_width="168dp"
                         android:layout_height="64dp"
                         android:layout_weight="1"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
                         android:ems="10"
-                        android:hint="Password"
+                        android:hint="New Password"
                         android:inputType="textPersonName" />
                 </LinearLayout>
 
@@ -135,55 +104,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="86dp">
 
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="User Name"
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="#1F0947"
-                        android:textSize="20sp" />
+
 
                     <EditText
                         android:id="@+id/editText2"
                         android:layout_width="168dp"
                         android:layout_height="64dp"
                         android:layout_weight="1"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
                         android:ems="10"
-                        android:hint="Username"
+                        android:hint="Verify Password"
                         android:inputType="textPersonName" />
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="63dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView11"
-                        android:layout_width="73dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="Email "
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="#1F0947"
-                        android:textSize="20sp" />
-
-                    <EditText
-                        android:id="@+id/editText4"
-                        android:layout_width="168dp"
-                        android:layout_height="64dp"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:hint="Email id"
-                        android:inputType="textPersonName" />
-                </LinearLayout>
 
             </LinearLayout>
 
@@ -191,8 +126,11 @@
                 android:id="@+id/save"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
-                android:background="#AAD2F3"
-                android:text="Save"
+                android:background="#00bfff"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="Change Password"
+                android:textStyle="bold"
                 android:textColor="#1F0947" />
 
         </LinearLayout>
