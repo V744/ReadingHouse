@@ -2,7 +2,11 @@ package com.ebookfrenzy.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -21,9 +25,20 @@ public class AdventureActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adventure);
-        listView=findViewById(R.id.list_view);
+        listView = findViewById(R.id.list_view_one);
+
         users = getUsers();
-        AdventureAdapter adapter=new AdventureAdapter(users);
+        AdventureAdapter adapter = new AdventureAdapter(users);
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent=new Intent(AdventureActivity.this,AddtoCart.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
+
 }

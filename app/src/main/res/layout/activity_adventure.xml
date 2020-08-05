@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdventureActivity">
+
     <ListView
-        android:id="@+id/list_view"
+        android:id="@+id/list_view_one"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"

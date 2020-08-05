@@ -14,7 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    public Button b1;
+   // public Button b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView bottomNav=findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemReselectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
-        b1=findViewById(R.id.addtocart);
+      /*  b1=findViewById(R.id.addtocart);
 
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +34,8 @@ public class HomeActivity extends AppCompatActivity {
             }
 
         });
+
+       */
 
     }
     private BottomNavigationView.OnNavigationItemReselectedListener navListener=
