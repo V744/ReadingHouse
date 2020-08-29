@@ -9,9 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        android:background="#E3F0F6"
-        >
+        android:background="#E3F0F6">
 
 
         <LinearLayout
@@ -45,7 +43,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="450dp"
+                android:layout_height="400dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -68,31 +66,13 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="98dp"
-                    android:orientation="horizontal">
-
-
-                    <EditText
-                        android:id="@+id/editText6"
-                        android:layout_width="168dp"
-                        android:layout_height="64dp"
-                        android:layout_marginRight="30dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:hint="validation code"
-                        android:inputType="textPersonName" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
                     android:layout_height="92dp"
                     android:orientation="horizontal">
 
 
 
                     <EditText
-                        android:id="@+id/editText5"
+                        android:id="@+id/new_pass"
                         android:layout_width="168dp"
                         android:layout_height="64dp"
                         android:layout_weight="1"
@@ -100,7 +80,7 @@
                         android:layout_marginLeft="30dp"
                         android:ems="10"
                         android:hint="New Password"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -110,7 +90,7 @@
 
 
                     <EditText
-                        android:id="@+id/editText2"
+                        android:id="@+id/confirm_pass"
                         android:layout_width="168dp"
                         android:layout_height="64dp"
                         android:layout_weight="1"
@@ -118,7 +98,7 @@
                         android:layout_marginLeft="30dp"
                         android:ems="10"
                         android:hint="Verify Password"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
 
                 </LinearLayout>
 
@@ -126,15 +106,16 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/save"
+                android:id="@+id/reset_btn"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:background="#00bfff"
                 android:text="RESET PAssword"
                 android:textColor="#1F0947"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

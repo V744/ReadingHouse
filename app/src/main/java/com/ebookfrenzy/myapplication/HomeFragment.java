@@ -72,19 +72,11 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(), FantasyActivity.class);
-
-                startActivity(intent);
-
             }
         });
         adventure.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(getContext(), AdventureActivity.class);
-
-                startActivity(intent);
 
             }
         });
@@ -92,9 +84,6 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(), RomanceActivity.class);
-
-                startActivity(intent);
 
             }
         });
@@ -102,9 +91,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(), MysteryActivity.class);
 
-                startActivity(intent);
 
             }
         });
@@ -112,9 +99,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(), HorrorActivity.class);
 
-                startActivity(intent);
 
             }
         });
@@ -122,9 +107,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(), ThrillerActivity.class);
 
-                startActivity(intent);
 
             }
         });
