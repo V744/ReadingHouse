@@ -59,7 +59,7 @@
                         app:srcCompat="@drawable/account" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName5"
+                        android:id="@+id/edt_email"
                         android:layout_width="wrap_content"
                         android:layout_height="100dp"
                         android:layout_marginRight="25dp"
@@ -86,7 +86,7 @@
                         app:srcCompat="@drawable/pass" />
 
                     <EditText
-                        android:id="@+id/editTextTextPassword"
+                        android:id="@+id/edt_password"
                         android:layout_width="wrap_content"
                         android:layout_height="105dp"
                         android:layout_marginRight="25dp"
