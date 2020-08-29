@@ -8,8 +8,7 @@
     tools:context=".Signup"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#E3F0F6"
-    >
+    android:background="#E3F0F6">
 
 
     <ImageView
@@ -20,65 +19,43 @@
         app:srcCompat="@drawable/simran" />
 
     <EditText
-        android:id="@+id/ed1"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="First Name"
-        android:layout_marginBottom="5dp"/>
-
-    <EditText
-        android:id="@+id/ed2"
+        android:id="@+id/edt_name"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:hint="Last Name" />
+        android:hint="Full Name"
+        android:maxLines="1"/>
 
     <EditText
-        android:id="@+id/ed3"
+        android:id="@+id/edt_email"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:hint="Email" />
+        android:hint="Email"
+        android:maxLines="1"/>
 
     <EditText
-        android:id="@+id/ed4"
+        android:id="@+id/edt_password"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:hint="Password" />
+        android:hint="Password"
+        android:inputType="textPassword"/>
 
     <EditText
-        android:id="@+id/ed5"
+        android:id="@+id/edt_cnfrm_password"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:hint="Confirm Password" />
-
-    <LinearLayout
-        android:layout_width="202dp"
-        android:layout_height="82dp"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="61dp"
-            android:layout_height="53dp"
-            android:layout_weight="1" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="169dp"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="@string/i_accept_the_terms_of_use_privacy_policy" />
-    </LinearLayout>
+        android:hint="Confirm Password"
+        android:inputType="textPassword"/>
 
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn_signup"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:background="#00bfff"
         android:gravity="center"
         android:text="SIGN UP" />
