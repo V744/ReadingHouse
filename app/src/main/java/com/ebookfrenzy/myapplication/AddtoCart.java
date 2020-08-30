@@ -110,7 +110,7 @@ public class AddtoCart extends AppCompatActivity {
     }
 
     /**
-     * This Method Is User ForRemoving Any Book From Firestore Cart
+     * This Method Is User For Removing Any Book From Firestore Cart
      * @param cart
      */
     private void removeBook(final Cart cart){

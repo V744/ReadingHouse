@@ -25,4 +25,10 @@ public interface INodeJS {
     Observable<String> updatePSWD(@Field("email") String email,
                                   @Field("password") String password);
 
+    @POST("updateUser")
+    @FormUrlEncoded
+    Observable<String> updateUser(@Field("email") String email,
+                                  @Field("name") String name,
+                                  @Field("password") String password);
+
 }

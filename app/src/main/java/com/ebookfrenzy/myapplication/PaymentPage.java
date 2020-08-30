@@ -52,6 +52,12 @@ public class PaymentPage extends AppCompatActivity {
         cartArrayList = getIntent().getParcelableArrayListExtra("list");
     }
 
+    /**
+     * This Method Is Used For Storing Order Of User In Firestore
+     * @param address
+     * @param code
+     * @param phone
+     */
     private void PlaceOrder(String address, String code, String phone) {
         for (int i=0;i<cartArrayList.size();i++){
 
