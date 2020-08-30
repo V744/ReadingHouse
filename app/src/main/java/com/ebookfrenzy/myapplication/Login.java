@@ -51,11 +51,11 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!edt_email.getText().toString().trim().equals("") && !edt_password.getText().toString().trim().equals("")) {
-                    loginUser(edt_email.getText().toString(), edt_password.getText().toString());
-                }
-                //Intent intent =new Intent(Login.this,HomeActivity.class);
-                //startActivity(intent);
+                //if (!edt_email.getText().toString().trim().equals("") && !edt_password.getText().toString().trim().equals("")) {
+                //    loginUser(edt_email.getText().toString(), edt_password.getText().toString());
+                //}
+                Intent intent =new Intent(Login.this,HomeActivity.class);
+                startActivity(intent);
             }
         });
 
